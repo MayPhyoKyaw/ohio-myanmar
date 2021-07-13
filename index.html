@@ -14,19 +14,39 @@
       href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
     <div class="wrapper">
-      <nav>
-        <header><a href="./index.html">OHIO</a></header>
-        <ul class="nav">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./services.html">Services</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container custom-toggler">
+          <a href="index.html" class="navbar-brand">OHIO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#myNav"
+            aria-controls="myNav"
+            aria-expanded="false"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="myNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item px-3 py-2"><a href="index.html">Home</a></li>
+              <li class="nav-item px-3 py-2"><a href="about.html">About</a></li>
+              <li class="nav-item px-3 py-2"><a href="services.html">Services</a></li>
+              <li class="nav-item px-3 py-2"><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </div>
+
+    <!-- scripts -->
+
+    <script src="assets/js/bootstrap.js"></script>
+
   </body>
 </html>
