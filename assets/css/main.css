@@ -38,6 +38,69 @@
   outline : none;
 }
 
+footer {
+  background-color: #b92c2c;
+  padding: 30px 20px;
+  color: #fff;
+}
+
+.footer-text {
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 330px;
+  text-align: justify;
+}
+
+.footer-contact li {
+  list-style: none;
+}
+
+.footer-icon {
+  font-size: 40px;
+  color: aliceblue;
+  opacity: 0.5;
+  padding: 20px 10px;
+}
+
+.footer-contact {
+  font-size: 14px;
+  color: rgb(209, 215, 219);
+  padding-left: 15px;
+}
+
+.footer-contact-icon {
+  font-size: 20px;
+  padding: 8px 8px;
+}
+
+.footer-nav-container {
+  /* text-align: center; */
+  padding-top: 20px;
+}
+
+.footer-nav {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.footer-nav li {
+  display: inline;
+}
+
+.footer-nav li a {
+  color: rgb(255, 250, 244);
+  text-decoration: none;
+}
+
+.footer-nav li a:hover {
+  color: #a38686;
+}
+
+.cpy {
+  font-size: 12px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 991px)  {
   .nav-item:hover{
     border-bottom: none;
