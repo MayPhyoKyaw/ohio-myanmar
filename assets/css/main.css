@@ -13,6 +13,10 @@
   min-height : 65px;
 }
 
+.navbar-brand {
+  margin-left: 8px;
+}
+
 .navbar-nav li a {
   text-decoration: none;
   color: white;
