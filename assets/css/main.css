@@ -4,18 +4,21 @@
   font-family: "Papyrus", sans-serif;
 }
 
-.wrapper{
+/* navbar  */
+
+.wrapper {
   margin: 0;
-  box-shadow: 5px 0 15px -4px rgba(139, 156, 194, 0.97), -5px 0 8px -4px rgba(139, 156, 194, 0.97);
+  box-shadow: 5px 0 15px -4px rgba(139, 156, 194, 0.97),
+    -5px 0 8px -4px rgba(139, 156, 194, 0.97);
 }
 
 .navbar {
-  min-height : 65px;
+  min-height: 65px;
   background-color: #b92c2c;
 }
 
 .navbar-brand {
-  font-family: 'Papyrus';
+  font-family: "Papyrus";
   margin-left: 8px;
   font-size: 1.3em;
   font-weight: 500;
@@ -24,9 +27,29 @@
 .navbar-nav li a {
   text-decoration: none;
   color: white;
+  line-height: 65px;
 }
-.nav-item:hover{
-  border-bottom: 1px solid #fff;
+.nav-item:hover a,
+.nav-item a.active {
+  color: #d6c7c7;
+}
+
+.dropdown-menu {
+  position: relative;
+  margin-top: 7px;
+  padding: 0;
+}
+.dropdown-menu li a {
+  line-height: 2em;
+  background-color: #b92c2c;
+  color: #fff;
+}
+.dropdown-menu li:hover a {
+  background-color: #fff;
+  color: #b92c2c;
+}
+.nav-services:hover .dropdown-menu {
+  display: block;
 }
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -35,8 +58,16 @@
 .custom-toggler.navbar-toggler {
   border: none;
   box-shadow: none;
-  outline : none;
+  outline: none;
 }
+
+/* carousel */
+.carousel-indicators button.active {
+  background-color: #b92c2c;
+  height: 5px;
+}
+/* vision mission */
+/* footer */
 
 footer {
   background-color: #b92c2c;
@@ -69,12 +100,10 @@ footer {
 }
 
 .footer-contact-icon {
-  font-size: 20px;
   padding: 8px 8px;
 }
 
 .footer-nav-container {
-  /* text-align: center; */
   padding-top: 20px;
 }
 
@@ -101,8 +130,8 @@ footer {
   text-align: center;
 }
 
-@media only screen and (max-width: 991px)  {
-  .nav-item:hover{
+@media only screen and (max-width: 991px) {
+  .nav-item:hover {
     border-bottom: none;
   }
 }
