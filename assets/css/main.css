@@ -76,9 +76,8 @@ footer {
 }
 
 .footer-text {
-  padding-left: 20px;
-  padding-top: 20px;
-  width: 330px;
+  margin: 2em 0;
+  padding: 0 1em;
   text-align: justify;
 }
 
