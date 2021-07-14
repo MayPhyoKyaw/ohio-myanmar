@@ -83,12 +83,12 @@
 }
 
 .title-line {
-  width: 50%;
+  width: 12%;
   border-top: 2px double #b92c2c;
 }
 
 .vision-mission p {
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 1.7px;
 }
 /* vision mission */
@@ -99,7 +99,7 @@
 }
 
 .activities hr {
-  width: 35%;
+  width: 6%;
   margin: 20px auto;
   border-top: 2px double #c92828;
 }
@@ -107,6 +107,16 @@
 .activities h2 {
   margin-left: 10%;
   color: #b92c2c;
+}
+
+.date-blog {
+  position: absolute;
+  z-index: 2;
+  padding: 5px 10px;
+  background-color: #b92c2c;
+  color: #e9e9e9;
+  /* top: 180px; */
+  /* left: 75px; */
 }
 
 .carousel-wrap {
@@ -120,7 +130,7 @@
 .owl-carousel .item {
   position: relative;
   z-index: 100;
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
 }
 
 /* end fix */
