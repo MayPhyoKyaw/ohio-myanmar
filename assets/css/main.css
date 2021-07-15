@@ -241,6 +241,130 @@ footer {
 
 /* footer */
 
+/* Contact Us */
+.contact-title {
+  color: #b92c2c;
+}
+
+.contact-title hr{
+  width: 10%;
+  border-top: 2px double #b92c2c;
+  margin: 10px auto;
+}
+
+.contact-content {
+  margin: 50px 0;
+}
+
+form {
+  margin: 0 auto;
+  padding: 0.5em;
+  width: 100%;
+  color: #aaa;
+}
+
+.name {
+  width: 100%;
+}
+
+.name input {
+  padding: 10px 10px;
+}
+
+.name input,
+.submit input,
+textarea {
+  width: 47%;
+  height: 3em;
+  text-indent: 0.5em;
+  border: 0.1em solid #ddd;
+  border-radius: 4px;
+  outline-color: #899456;
+}
+
+.name input[name=surname] {
+  float: right;
+}
+
+.name input[type=mail],
+.name input[name=subject] {
+  margin-top: 1em;
+  width: 100%;
+}
+
+.message,
+.submit {
+  margin-top: 1em;
+}
+
+.message textarea,
+.submit input {
+  width: 100%;
+}
+
+.message textarea {
+  padding: 10px 10px;
+  height: 8em;
+}
+
+.submit input {
+  background: #b92c2c;
+  color: #fff;
+  border: 0;
+  border-bottom: 4px solid #6b0202;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.submit input:focus, .submit input:hover {
+  background: #970202;
+  border-bottom-color: #420000;
+}
+
+.submit input:active {
+  background: #970202;
+  border-bottom-color: #420000;
+}
+
+.contact-card {
+  display: block;
+  /* position: relative; */
+  padding: 40px 20px 20px;
+  margin-left: 50px;
+  /* border: 1px solid #b92c2c; */
+  letter-spacing: 1px;
+  background-color: hsl(0, 35%, 91%);
+  /* background-image: url('../images/card-bg.png'); */
+  background-attachment: fixed;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #cdcbcd;
+}
+
+.contact-card h2{
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.map {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width: 90%;
+  height: 300px;
+  background-color: rgb(219, 219, 219);
+  border: 1px solid rgb(110, 0, 0);
+}
+
+.map iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+/* Contact Us */
+
 @media only screen and (max-width: 991px) {
   .nav-item:hover {
     border-bottom: none;
