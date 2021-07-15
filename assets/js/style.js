@@ -10,14 +10,10 @@ $(function () {
 // go to mail
 function gotoMail(form) {
   var values = {
-    firstname: form.name.value,
-    surname: form.surname.value,
     email: form.email.value,
     subject: form.subject.value,
     message: form.message.value
   };
-  window.open(`mailto:ohio.jl.center@gmail.com?subject=${values.subject}&body=I'm ${values.firstname} ${values.surname} <${values.email}>.
-      Here is the message:
-      ${values.message}`
+  window.open(`mailto:ohio.jl.center@gmail.com?subject=${values.subject}&body=${values.message}`
   );
 }
