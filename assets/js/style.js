@@ -14,6 +14,6 @@ function gotoMail(form) {
     subject: form.subject.value,
     message: form.message.value
   };
-  window.open(`mailto:ohio.jl.center@gmail.com?subject=${values.subject}&body=${values.message}`
+  window.open(`mailto:ohio.jl.center@gmail.com, ohio.mi.coltd@gmail.com?subject=${values.subject}&body=${values.message}`
   );
 }
