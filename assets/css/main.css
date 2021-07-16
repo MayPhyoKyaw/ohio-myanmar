@@ -274,12 +274,22 @@
 
 .business-activity-items {
   display: block;
-  padding: 50px 20px;
+  padding: 30px 20px 50px;
   margin: 10px 30px;
-  /* background-color: #918d91; */
+  /* background-color: #f0ffe7; */
   border-bottom: 2px solid #e69fae;
   box-shadow: 3px 3px 3px #aaa;
 } 
+
+.business-activity-icon {
+  color: #b92c2c;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.business-activity-icon:hover {
+  color: #c0b300;
+}
 
 /* Business Activity */
 
