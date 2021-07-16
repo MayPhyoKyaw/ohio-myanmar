@@ -27,6 +27,13 @@
   -ms-transition: background-color 300ms linear;
   -o-transition: background-color 300ms linear;
 }
+
+.small-brand {
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  text-align: left;
+}
 .navbar-brand {
   font-family: "Papyrus";
   margin-left: 8px;
@@ -85,6 +92,22 @@
 }
 
 /* carousel */
+
+#myCarousel {
+  height: 70vh !important;
+}
+
+.carousel-item img {
+  height: 70vh !important;
+}
+
+.carousel-caption * {
+  margin-bottom: 20px;
+  color: #b92c2c;
+}
+.carousel-caption h5 {
+  font-size: 25px;
+}
 .carousel-indicators button.active {
   background-color: #b92c2c;
   height: 5px;
@@ -255,8 +278,8 @@
 
 /* Business Activity */
 .business-activity {
-    text-align: center;
-    color: #b92c2c;
+  text-align: center;
+  color: #b92c2c;
 }
 
 .business-activity hr {
@@ -277,9 +300,7 @@
   padding: 30px 20px 50px;
   margin: 10px 30px;
   /* background-color: #f0ffe7; */
-  border-bottom: 2px solid #e69fae;
-  box-shadow: 3px 3px 3px #aaa;
-} 
+}
 
 .business-activity-icon {
   color: #ff615b;
@@ -290,6 +311,8 @@
 .business-activity-items:hover {
   color: #0c0c0c;
   cursor: default;
+  border-bottom: 2px solid #e69fae;
+  box-shadow: 3px 3px 3px #aaa;
 }
 
 /* Business Activity */
@@ -654,13 +677,15 @@ textarea {
   .profile-card {
     margin-top: 70px;
   }
-  /* footer {
-    width: 112%;
-  }
-  nav {
-    width: 112%;
-  }
-  .carousel {
-    width: 112%;
-  } */
 }
+
+/* @media screen and (max-width: 510px) {
+  .navbar-brand {
+    color : black;
+  }
+} */
+/* @media only screen and (max-width: 350px) {
+  .navbar-brand {
+    display: none;
+  }
+} */
