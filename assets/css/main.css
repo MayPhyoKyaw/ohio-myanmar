@@ -289,7 +289,7 @@
 
 .business-activity-items:hover {
   color: #c0b300;
-  cursor: pointer;
+  cursor: default;
 }
 
 /* Business Activity */
