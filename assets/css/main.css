@@ -253,6 +253,36 @@
 
 /* Activities */
 
+/* Business Activity */
+.business-activity {
+    text-align: center;
+    color: #b92c2c;
+}
+
+.business-activity hr {
+  width: 15%;
+  border-top: 2px double #c92828;
+  margin: 25px auto;
+}
+
+.business-activity-blog {
+  width: 90%;
+  height: 30%;
+  margin: 30px auto;
+  justify-content: center;
+}
+
+.business-activity-items {
+  display: block;
+  padding: 50px 20px;
+  margin: 10px 30px;
+  /* background-color: #918d91; */
+  border-bottom: 2px solid #e69fae;
+  box-shadow: 3px 3px 3px #aaa;
+} 
+
+/* Business Activity */
+
 /* footer */
 footer {
   background-color: #b92c2c;
