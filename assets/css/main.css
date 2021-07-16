@@ -334,11 +334,26 @@ footer {
   list-style: none;
 }
 
+.footer-contact a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-contact a:hover {
+  color: rgb(209, 209, 209);
+  text-decoration: underline;
+  text-decoration-color: rgb(182, 182, 182);
+}
+
 .footer-icon {
   font-size: 40px;
   color: aliceblue;
   opacity: 0.5;
   padding: 20px 10px;
+}
+
+.footer-icon:hover {
+  color: rgb(209, 209, 209);
 }
 
 .footer-contact {
@@ -440,6 +455,57 @@ footer {
   color: #b92c2c;
 }
 /* aboutus-end */
+
+/* Services */
+
+.odd-departments {
+  /* display: block; */
+  border-left: 3px solid #970202;
+  padding: 30px;
+  margin: 30px auto;
+  width: 85%;
+  color: #b92c2c;
+}
+
+.odd-departments img,
+.even-departments img{
+  /* float: right; */
+  margin: 10px 15px;
+}
+
+.even-departments {
+  /* display: block; */
+  /* float: right; */
+  border-right: 3px solid #970202;
+  padding: 30px;
+  margin: 30px auto;
+  width: 85%;
+  color: #b92c2c;
+}
+
+.even-list {
+  /* margin-left: 10px; */
+}
+
+.right {
+  text-align: right;
+  padding-right: 8%;
+}
+
+ul.list {
+  list-style-type: circle;
+  margin: 20px auto 0;
+}
+
+.list li {
+  padding: 10px 0;
+}
+
+.list h4 {
+  font-weight: bolder;
+  padding: 10px 0;
+}
+/* Services */
 
 /* Contact Us */
 .contact-title {
@@ -558,6 +624,14 @@ textarea {
   box-shadow: 2px 2px 2px #8f3d4f;
   border-radius: 10px;
   /* text-align: center; */
+}
+
+.contact-card p a {
+  color: #970202;
+}
+
+.contact-card p a:hover {
+  color: #ff4848;
 }
 
 /* .contact-card-title h2 {
