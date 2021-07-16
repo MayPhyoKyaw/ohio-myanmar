@@ -282,13 +282,14 @@
 } 
 
 .business-activity-icon {
-  color: #b92c2c;
+  color: #ff615b;
   font-size: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
-.business-activity-icon:hover {
+.business-activity-items:hover {
   color: #c0b300;
+  cursor: pointer;
 }
 
 /* Business Activity */
