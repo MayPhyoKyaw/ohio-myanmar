@@ -630,6 +630,7 @@ textarea {
     column-gap: 20px;
   }
 }
+
 @media (max-width: 800px) {
   #gallery {
     -webkit-column-count: 2;
@@ -652,5 +653,14 @@ textarea {
 @media only screen and (max-width: 767px) {
   .profile-card {
     margin-top: 70px;
+  }
+  footer {
+    width: 112%;
+  }
+  nav {
+    width: 112%;
+  }
+  .carousel {
+    width: 112%;
   }
 }
