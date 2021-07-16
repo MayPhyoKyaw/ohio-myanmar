@@ -67,27 +67,19 @@
         <h1 class="header-title">CONTACT US</h1>
       </div>
       <div class="container contact-title">
-        <!-- <div class="text-center">
-          <h1>Contact Us</h1>
-        </div>
-        <hr /> -->
         <div class="row contact-content">
           <div class="col-md-5">
             <h2>Message Us</h2>
-            <form>
+            <form id="contact-form" class="contact-form">
               <div class="name">
                 <input
-                  type="mail"
+                  type="email"
                   name="email"
-                  placeholder="example@gmail.com"
-                  required
+                  placeholder="yourmail@gmail.com"
                 />
-                <input
-                  type="text"
-                  name="subject"
-                  placeholder="Subject"
-                  required
-                />
+                <span class="input-error"></span>
+                <input type="text" name="subject" placeholder="Subject" />
+                <span class="input-error"></span>
               </div>
               <div class="message">
                 <textarea
@@ -96,21 +88,25 @@
                   name="message"
                   placeholder="Message"
                   id="textarea"
-                  required
                 ></textarea>
+                <span class="input-error"></span>
               </div>
               <div class="submit">
-                <button type="button" onClick="gotoMail(this.form)">
+                <button
+                  type="button"
+                  name="button"
+                  onclick="submitForm(this.form)"
+                >
                   Send Message
                 </button>
               </div>
             </form>
           </div>
-          <div class="col-md-7 contact-card">
+          <div class="col-md-6 offset-md-1 contact-card">
             <div class="contact-card-title">
               <h2>Get in Touch</h2>
             </div>
-            <h5 style="font-weight: 600;">
+            <h5 style="font-weight: 600">
               ** Join us when you need services or products. We can provide best
               services and products to our customers. **
             </h5>
