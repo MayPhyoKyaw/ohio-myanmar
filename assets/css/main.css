@@ -462,6 +462,20 @@ footer {
   width: 100%;
 }
 
+.profile h1,
+.detail h1 {
+  color: #b92c2c;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.profile p {
+  text-align: justify;
+  padding: 20px 20px 10px;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
 .header-title {
   font-size: 50px;
   color: #b92c2c;
@@ -477,8 +491,18 @@ footer {
 }
 
 .info-table {
-  width: 60%;
+  width: 75%;
+  margin: 30px 20px 20px;
 }
+
+.info-table td {
+  padding: 10px 13px;
+}
+
+.info-table th {
+  color: #6b0202;
+}
+
 .partner-img {
   width: 100%;
 }
@@ -678,6 +702,7 @@ textarea {
   border-radius: 5px;
   border: 1px solid #a38686;
   box-shadow: 2px 3px 3px #cdcbcd;
+  color: #0c0c0c;
 }
 
 .contact-card-title {
@@ -696,11 +721,11 @@ textarea {
 }
 
 .contact-card p a {
-  color: #970202;
+  color: #0c0c0c;
 }
 
 .contact-card p a:hover {
-  color: #ff4848;
+  color: #970202;
 }
 
 /* .contact-card-title h2 {
