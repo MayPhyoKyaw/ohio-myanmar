@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@
 }
 
 .c-name-font {
-  font-family: 'Otomanopee One', sans-serif;
+  font-family: "Otomanopee One", sans-serif;
 }
 
 /* navbar  */
@@ -38,6 +38,7 @@
 }
 
 .small-brand {
+  display: none;
   font-size: 12px;
   text-decoration: none;
   color: #fff;
@@ -498,7 +499,7 @@ footer {
   border: none;
   box-shadow: 0 1px 10px 0 #b92c2c;
 }
-.profile-card:hover .profile-social{
+.profile-card:hover .profile-social {
   animation: shake 0.5s;
   -webkit-animation: shake 0.5s;
 }
@@ -819,19 +820,54 @@ textarea {
   .profile-card {
     margin-top: 70px;
   }
+  .small-brand {
+    display: block;
+  }
 }
 
+@media only screen and (max-width: 340px) {
+  .small-brand {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 310px) {
+  .small-brand {
+    display: none;
+  }
+}
 
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
