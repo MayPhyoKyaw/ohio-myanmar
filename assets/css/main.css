@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,10 @@
   /* font-family: "Mukta", serif; */
   /* font-family: 'Inter', sans-serif; */
   font-family: "Quicksand", sans-serif;
+}
+
+.c-name-font {
+  font-family: 'Otomanopee One', sans-serif;
 }
 
 /* navbar  */
@@ -32,7 +37,7 @@
 }
 
 .small-brand {
-  font-size: 15px;
+  font-size: 14px;
   text-decoration: none;
   color: #fff;
   text-align: left;
