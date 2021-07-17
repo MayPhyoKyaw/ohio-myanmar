@@ -133,7 +133,6 @@
 
 /* vision mission */
 .center {
-  /* display: flex; */
   margin: 0 auto;
   justify-content: center;
 }
@@ -216,7 +215,6 @@
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  /* justify-content: last baseline; */
   opacity: 0;
   transition: opacity 0.25s;
   z-index: 3;
@@ -547,12 +545,14 @@ footer {
   padding: 0 5px;
   color: #b92c2c;
 }
+.profile-social-link:hover {
+  color: #000;
+}
 /* aboutus-end */
 
 /* Services */
 
 .odd-departments {
-  /* display: block; */
   border-left: 3px solid #970202;
   padding: 30px;
   margin: 30px auto;
@@ -562,22 +562,15 @@ footer {
 
 .odd-departments img,
 .even-departments img {
-  /* float: right; */
   margin: 10px 15px;
 }
 
 .even-departments {
-  /* display: block; */
-  /* float: right; */
   border-right: 3px solid #970202;
   padding: 30px;
   margin: 30px auto;
   width: 85%;
   color: #b92c2c;
-}
-
-.even-list {
-  /* margin-left: 10px; */
 }
 
 .right {
@@ -604,12 +597,6 @@ ul.list {
 .contact-title {
   color: #b92c2c;
 }
-
-/* .contact-title hr{
-  width: 10%;
-  border-top: 2px double #b92c2c;
-  margin: 10px auto;
-} */
 
 .contact-content {
   margin: 50px 0;
@@ -645,10 +632,6 @@ textarea {
   border-radius: 4px;
   outline-color: #899456;
 }
-
-/* .name input[name=surname] {
-  float: right;
-} */
 
 .name input[type="email"],
 .name input[name="subject"] {
@@ -717,7 +700,6 @@ textarea {
   width: fit-content;
   box-shadow: 2px 2px 2px #8f3d4f;
   border-radius: 10px;
-  /* text-align: center; */
 }
 
 .contact-card p a {
@@ -727,10 +709,6 @@ textarea {
 .contact-card p a:hover {
   color: #970202;
 }
-
-/* .contact-card-title h2 {
-  padding-bottom: 20px;
-} */
 
 .map {
   display: block;
@@ -761,12 +739,6 @@ textarea {
   height: 100%;
   width: 100%;
 }
-
-/* .load-map h1{
-  color: rgb(207, 181, 181);
-  font-weight: bolder;
-  letter-spacing: 1.5px;
-} */
 
 .lds-ripple {
   display: inline-block;
