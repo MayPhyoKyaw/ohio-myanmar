@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -37,7 +38,7 @@
 }
 
 .small-brand {
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: none;
   color: #fff;
   text-align: left;
@@ -390,11 +391,11 @@ footer {
 
 .footer-contact a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(209, 215, 219);
 }
 
 .footer-contact a:hover {
-  color: rgb(209, 209, 209);
+  color: #fff;
   text-decoration: underline;
   text-decoration-color: rgb(182, 182, 182);
 }
@@ -413,6 +414,11 @@ footer {
 .footer-contact {
   font-size: 14px;
   color: rgb(209, 215, 219);
+  padding-left: 25px;
+}
+
+.footer-contact-title {
+  padding-left: 20px;
 }
 
 .footer-contact-icon {
