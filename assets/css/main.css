@@ -294,6 +294,7 @@
 .business-activity {
   text-align: center;
   color: #b92c2c;
+  background-color: #fffffb;
 }
 
 .business-activity hr {
@@ -315,6 +316,7 @@
   padding: 30px 20px 50px;
   margin: 10px 30px;
   position: relative;
+  background-color: #fdfdfd;
   transition: all 0.6s ease;
   -webkit-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
@@ -331,7 +333,8 @@
 .business-activity-items:hover {
   color: #0c0c0c;
   cursor: default;
-  box-shadow: 3px 3px 3px #aaa;
+  /* box-shadow: 3px 3px 3px #aaa; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .business-activity-items:hover .act-learn-more {
