@@ -7,3 +7,8 @@ $(function () {
     $navbrand.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
   });
 });
+
+function fullScreenImage(element) {
+  document.getElementById("modalImage").src = element.src;
+  document.getElementById("imagePopup").style.display = "block";
+}

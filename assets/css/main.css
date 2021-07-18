@@ -566,6 +566,8 @@ footer {
 .odd-departments img,
 .even-departments img {
   margin: 10px 15px;
+  height: 100px;
+  width: 200px;
 }
 
 .even-departments {
@@ -593,6 +595,67 @@ ul.list {
 .list h4 {
   font-weight: bolder;
   padding: 10px 0;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Add Animation */
+.modal-content {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.4s;
+  animation-name: zoom;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 10%;
+  right: -2%;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
 }
 /* Services */
 
@@ -813,6 +876,19 @@ textarea {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
+  }
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+    /* top: 30%; */
+  }
+
+  .close {
+    top: 7%;
+    right: -9%;
   }
 }
 
