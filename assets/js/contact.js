@@ -25,9 +25,9 @@ function validateField(field) {
     }
   } else if (field.type === "text") {
     if (field.value.length < 3) {
-      onInvalid(field, "Subject should contain at least 3 three characters");
-    } else if (field.value.length > 30) {
-      onInvalid(field, "Subject should be at most 30 three characters");
+      onInvalid(field, "Subject should contain at least 3 characters");
+    } else if (field.value.length > 60) {
+      onInvalid(field, "Subject should be at most 60 characters");
     } else {
       onValid(field);
       isOk = true;
