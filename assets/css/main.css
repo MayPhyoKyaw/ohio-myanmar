@@ -615,7 +615,6 @@ ul.list {
 
 /* Modal Content (image) */
 .modal-content {
-  position: relative;
   margin: auto;
   display: block;
   width: 80%;
@@ -909,7 +908,7 @@ textarea {
 
   .close {
     top: 7%;
-    right: -9%;
+    right: 1%;
   }
 }
 
