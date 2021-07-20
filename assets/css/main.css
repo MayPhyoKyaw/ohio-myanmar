@@ -115,17 +115,28 @@
 
 .carousel-item img {
   height: 70vh !important;
+  object-fit: cover;
 }
 
+.carousel-caption {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 .carousel-caption * {
-  margin-bottom: 20px;
-  color: #b92c2c;
+  color: #fff;
 }
 .carousel-caption h5 {
-  font-size: 25px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.carousel-caption p {
+  margin-bottom: 40px;
+  font-size: 18px;
 }
 .carousel-indicators button.active {
-  background-color: #b92c2c;
+  background-color: #fff;
   height: 5px;
 }
 
