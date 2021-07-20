@@ -120,19 +120,28 @@
 
 .carousel-caption {
   width: 100%;
+  height: 100%;
   left: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .carousel-caption * {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
   color: #fff;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 .carousel-caption h5 {
   font-size: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 120px;
 }
 .carousel-caption p {
-  margin-bottom: 40px;
+  margin-bottom: 70px;
   font-size: 18px;
 }
 .carousel-indicators button.active {
@@ -490,17 +499,22 @@ footer {
 }
 
 .header-title {
+  height: 70vh;
+  width: 100%;
+  line-height: 70vh;
+  text-align: center;
+  background-color: rgba(0, 0, 0,0.3);
   font-size: 50px;
-  color: #b92c2c;
+  color: #fff;
   font-weight: bolder;
   position: absolute;
-  top: 45%;
+  top : 80px;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 
 .info-table {
