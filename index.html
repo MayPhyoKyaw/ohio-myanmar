@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/aos.css">
   </head>
   <body>
     <nav
@@ -112,11 +113,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
-              src="assets/images/home1.jpg"
-              class="d-block w-100"
-              alt=""
-            />
+            <img src="assets/images/home1.jpg" class="d-block w-100" alt="" />
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>
@@ -177,7 +174,7 @@
         <div class="row vision-mission center">
           <h1>Our Vision</h1>
           <hr class="title-line" />
-          <p>
+          <p data-aos="fade-left" data-aos-duration="500">
             Strengthen the growth of education through sustainable economic
             development. <br />
             OHIO Myanmar International Co.,Ltd. will steadily advance in the
@@ -187,7 +184,7 @@
         <div class="row vision-mission center">
           <h1>Our Mission</h1>
           <hr class="title-line" />
-          <p>
+          <p data-aos="fade-right" data-aos-duration="500">
             Raise the human resources’ capacities those who support the world’s
             needs such as Education, Economics and national development.
           </p>
@@ -411,14 +408,14 @@
         </div>
         <div class="footer-nav-container text-center text-md-start">
           <ul class="footer-nav ps-0">
-            <li class="nav-item px-3 py-2">
+            <li class="nav-item">
               <a href="index.html" class="active">Home</a>
             </li>
-            <li class="nav-item px-3 py-2"><a href="about.html">About</a></li>
-            <li class="nav-item px-3 py-2">
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item">
               <a href="services.html">Services</a>
             </li>
-            <li class="nav-item px-3 py-2">
+            <li class="nav-item">
               <a href="contact.html">Contact</a>
             </li>
           </ul>
@@ -435,5 +432,9 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/style.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

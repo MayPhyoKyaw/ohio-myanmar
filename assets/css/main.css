@@ -158,13 +158,13 @@
 }
 
 .vision-mission {
-  width: 65%;
+  width: 90%;
   padding: 15px 0;
   color: #b92c2c;
 }
 
 .title-line {
-  width: 12%;
+  width: 8%;
   border-top: 2px double #b92c2c;
 }
 
@@ -458,11 +458,13 @@ footer {
 
 .footer-nav li {
   display: inline;
+  padding : 10px 15px;
 }
 
 .footer-nav li a {
   color: rgb(255, 250, 244);
   text-decoration: none;
+  width: 100%;
 }
 
 .footer-nav li a:hover {
@@ -503,12 +505,12 @@ footer {
   width: 100%;
   line-height: 70vh;
   text-align: center;
-  background-color: rgba(0, 0, 0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   font-size: 50px;
   color: #fff;
   font-weight: bolder;
   position: absolute;
-  top : 80px;
+  top: 80px;
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
@@ -955,6 +957,20 @@ textarea {
 @media only screen and (max-width: 310px) {
   .small-brand {
     display: none;
+  }
+}
+@media only screen and (max-width: 417px) {
+  footer {
+    padding: 0;
+  }
+  .footer-nav-container {
+    margin : 0;
+    padding : 0;
+    width: 100%;
+  }
+  .footer-nav li {
+    margin : 0 5px;
+    padding : 0;
   }
 }
 
