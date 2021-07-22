@@ -197,7 +197,7 @@
   position: absolute;
   z-index: 2;
   padding: 5px 10px;
-  background-color: #b92c2c;
+  background-color: #b92c2caf;
   color: #e9e9e9;
   right: 0;
   bottom: 0;
@@ -937,6 +937,10 @@ textarea {
     top: 7%;
     right: 1%;
   }
+
+  .contact-card {
+    margin-top: 60px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -970,6 +974,15 @@ textarea {
   .footer-nav li {
     margin: 0 5px;
     padding: 0;
+  }
+  .contact-card {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contact-card {
+    margin-top: 60px;
   }
 }
 
