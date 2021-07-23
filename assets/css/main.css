@@ -938,6 +938,10 @@ textarea {
   .contact-card {
     margin-top: 60px;
   }
+
+  footer {
+    padding: 20px 0;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -961,7 +965,7 @@ textarea {
 }
 @media only screen and (max-width: 417px) {
   footer {
-    padding: 0;
+    padding: 10px 0;
   }
   .footer-nav-container {
     margin: 0;
